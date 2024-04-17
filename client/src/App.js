@@ -10,6 +10,7 @@ import Admin from './pages/Admin';
 
 /* third party */
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ShowMovie from './pages/Movies/Show';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <div className="col-10">
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route exact path='/movies/:id' element={<ShowMovie />} />
               <Route path='/movies' element={<Movies />} />
               <Route path='/genres' element={<Genres />} />
               <Route path='/admin' element={<Admin />} />
