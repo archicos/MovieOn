@@ -17,4 +17,9 @@ Backend implemented using `Golang`. To run the backend service, use command:
 
 `go run cmd/api/*.go`
 
+Alternatife command if `*` keyword is not supported:
+
+`go run .\main.go .\middleware.go .\movieHandler.go .\routes.go .\statusHandler.go .\utilities.go`
+(Make sure command is run on directory `\goreactmovie\server\cmd\api\`)
+
 Open [http://localhost:4000](http://localhost:4000) to view it in your browser.
