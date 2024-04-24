@@ -4,7 +4,7 @@ import MovieList from '../../components/movies/MovieList'
 const index = () => {
   return (
     <>
-      <MovieList />
+        <MovieList />
     </>
   )
 }
